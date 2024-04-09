@@ -1,0 +1,45 @@
+.topBox {
+  h1 {
+    margin-bottom: 20px;
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+    .listItem {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      .user {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        img {
+          width: 37px;
+          height: 37px;
+          border-radius: 50%;
+        }
+        .userTexts {
+          display: flex;
+          flex-wrap: nowrap;
+          flex-direction: column;
+          gap: 6px;
+          .username {
+            font-size: 14px;
+            font-weight: 400;
+          }
+          .email {
+            font-size: 12px;
+            font-weight: 200;
+          }
+        }
+      }
+    }
+    .amount {
+      font-weight: 600;
+      font-size: 16px;
+    }
+  }
+}

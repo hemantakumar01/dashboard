@@ -1,0 +1,14 @@
+.barBox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+
+  h3 {
+    margin-bottom: 10px;
+  }
+  .barchat {
+    width: 100%;
+    height: 100%;
+  }
+}

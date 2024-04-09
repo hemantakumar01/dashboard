@@ -1,0 +1,45 @@
+.dataTable {
+  padding: 20px;
+
+  .texts {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    button {
+      padding: 10px 20px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  }
+  .table {
+    width: 100%;
+    padding: 20px;
+    .dataGride {
+      background-color: white;
+      padding: 10px;
+      img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        object-fit: contain;
+      }
+      .action {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        button {
+          border: none;
+          background-color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+        }
+      }
+    }
+    .MuiDataGrid-toolbarContainer {
+      flex-direction: row-reverse;
+    }
+  }
+}
