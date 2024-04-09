@@ -8,7 +8,6 @@ const PieCharts = () => {
     { name: "Laptop", value: 300, color: "#FFBB28" },
     { name: "Keyboard", value: 200, color: "#FF8042" },
   ];
-  const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"];
   return (
     <div className="pieChart">
       <h3>Leads By Source</h3>
